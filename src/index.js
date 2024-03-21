@@ -13,7 +13,7 @@ function generatePoem(event) {
   let promptInput = document.querySelector("#prompt");
   let poemElement = document.querySelector("#generated-poem");
   poemElement.classList.remove("hidden");
-  poemElement.innerHTML = `<div class="blink">Generating a poem for you</div>`;
+  poemElement.innerHTML = `<div class="blink">⌛︎ Generating a poem for you</div>`;
 
   let apiKey = "dab4o47cf43b881e15a2t0c248003831";
   let prompt = `Write a poem about ${promptInput.value}`;
