@@ -21,6 +21,7 @@ form {
 
 footer {
   font-size: small;
+  text-align: center;
 }
 
 .container {
@@ -52,4 +53,12 @@ footer {
   padding: 30px;
   border-left: 4px solid rgb(83, 159, 218);
   margin-bottom: 30px;
+}
+
+#generated-poem {
+  line-height: 1.5;
+}
+
+.Typewriter__cursor {
+  display: none;
 }
