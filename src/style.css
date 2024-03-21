@@ -47,7 +47,7 @@ footer {
   color: white;
 }
 
-#generated-poem {
+.poem {
   background-color: white;
   padding: 30px;
   border-left: 4px solid rgb(83, 159, 218);
