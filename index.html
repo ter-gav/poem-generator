@@ -15,24 +15,27 @@
         <h1>AI Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter any topic"
-            autofocus
-            autocomplete="off"
-            class="prompt"
-            id="prompt"
-            required
-          />
-          <input
-            type="submit"
-            value="Generate"
-            class="submit-button"
-            id="generate-button"
-          />
-        </form>
-        <div class="poem" id="generated-poem"></div>
+        <div class="form-wrapper">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter any topic for a poem"
+              autofocus
+              autocomplete="off"
+              class="prompt"
+              id="prompt"
+              required
+            />
+            <input
+              type="submit"
+              value="Generate"
+              class="submit-button"
+              id="generate-button"
+            />
+          </form>
+          <div class="hint">i.e. Flowers, Love or Potatoes.</div>
+        </div>
+        <div class="poem hidden" id="generated-poem"></div>
       </main>
       <footer>
         This was coded by Teresa Gavric and is open-sourced on
